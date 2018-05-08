@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="lang-Hans">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>无缝轮播</title>
+    <link rel="stylesheet" href="./style.css">
+    <style type="text/css">
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="window">
+        <div id='slides' class="images">
+            <!-- img[src=./$.png][width=400][height=300][alt=图片]*5 -->
+            <img src="./macbook1.jpg" alt="图片" width="920" height="400">
+            <img src="./iphone2.jpg" alt="图片" width="920" height="400">
+            <img src="./imac3.jpg" alt="图片" width="920" height="400">
+            <!-- <img src="./4.png" alt="图片" width="400" height="300">
+            <img src="./5.png" alt="图片" width="400" height="300"> -->
+        </div>
+    </div>
+    <div id="container">
+        <svg class="icon" id="prev"aria-hidden="true">
+            <use xlink:href="#icon-mediaprevious"></use>
+        </svg>
+        <svg class="icon" id="next" aria-hidden="true">
+            <use xlink:href="#icon-medianext"></use>
+        </svg>
+        <!-- <button id="prev">prev</button>
+        <button id="next">next</button> -->
+    </div>
+    <div class="footer">
+        <ul id='slideBar'>
+            <li>
+                <img src="./1.png" alt="">
+            </li>
+            <li>
+                <img src="./2.png" alt="">
+            </li>
+            <li>
+                <img src="./3.png" alt="">
+            </li>
+        </ul>
+    </div>
+    <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="./main.js"></script>
+    <script src="//at.alicdn.com/t/font_656865_jacambzw4ic3ow29.js"></script>
+</body >
+
+</html >

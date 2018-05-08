@@ -1,0 +1,97 @@
+*{margin: 0;padding:0;}
+*{box-sizing: border-box;}
+.window{
+    width: 920px;
+    height:400px;
+    margin: 20px auto; 
+    /* 多出来的看不见  */
+    overflow: hidden;
+    text-align: center;
+}
+body{
+    
+   
+    /* Setting default text color, background and a font stack */
+    color:#444444;
+    font-size:13px;
+    background: #f2f2f2;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+ul li{list-style: none;
+
+}
+.images{
+    display: flex;
+    transition: all 1s;
+    
+}
+.images >img{
+        width:100%;
+        top: 0;
+}
+#container{
+    text-align: center;
+    
+}
+#slideBar{
+    
+    text-align: center;
+    display: flex;
+}
+ul{
+    width:180px;
+    margin-left: auto;
+    margin-right: auto;      
+}
+.window{
+    -moz-box-shadow:1px 1px 7px #333333; -webkit-box-shadow:1px 1px 7px #333333; box-shadow:1px 1px 7px #333333;
+    
+}
+li{ 
+    padding-top:8px;
+    
+    width:60px;
+}
+.footer{
+    -moz-box-shadow:1px 1px 3px #333333; -webkit-box-shadow:1px 1px 3px #333333; box-shadow:1px 1px 3px #333333;
+    background-color: #f6f6f6;
+    width:920px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+   margin:15px;
+}
+/* 100%是指和他爸爸一样宽 */
+/* .images>img:nth-child(1){
+    top:0;
+    left:0;
+    position: absolute;
+}
+.images>img:nth-child(2){
+    top:0;
+    position: absolute;
+    /* 在右边呆着，等待出场 */
+    /* left:100%;
+}
+.images>img:nth-child(3){
+    top:0;
+    left:200%;
+    position: absolute;
+} */ 
+/* .images>img:nth-child(4){
+    top:0;
+    position: absolute;
+    /* 在右边呆着，等待出场 */
+    /* left:200%;
+} */
+/* .images > img.right{
+    top:0;
+    left:100%;
+    position: absolute;
+} */
+

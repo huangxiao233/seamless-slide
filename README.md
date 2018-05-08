@@ -1,2 +1,4 @@
-#无缝轮播
-可以自己选择翻页，指定页面，也可以无限循环下去
+# slide
+# seamless-slide
+# seamless-slide
+# seamless-slide
